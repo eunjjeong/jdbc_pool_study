@@ -1,0 +1,47 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql5-17032b702b1-1694ddebd4c87eb9": {
+			"provider": "mysql",
+			"driver": "mysql5",
+			"name": "MySQL - jdbc_pool_study(root)",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "jdbc_pool_study",
+				"url": "jdbc:mysql://localhost:3306/jdbc_pool_study",
+				"home": "/usr",
+				"type": "dev",
+				"handlers": {}
+			}
+		},
+		"mysql5-17032b7a8b1-6565a4404823f80f": {
+			"provider": "mysql",
+			"driver": "mysql5",
+			"name": "MySQL - jdbc_pool_study(user)",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "jdbc_pool_study",
+				"url": "jdbc:mysql://localhost:3306/jdbc_pool_study",
+				"home": "/usr",
+				"type": "dev",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
